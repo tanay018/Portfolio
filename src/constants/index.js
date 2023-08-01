@@ -15,10 +15,10 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  react,
+  c,
+  dsa,
+  mern,
   carrent,
   jobit,
   tripguide,
@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Competitive Programmer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "DSA Enthusiast",
     icon: creator,
   },
 ];
@@ -71,10 +71,6 @@ const technologies = [
   {
     name: "JavaScript",
     icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
   },
   {
     name: "React JS",
@@ -116,55 +112,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Competitive Programming",
+    company_name: "C++",
+    icon: c,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    // date: "March 2020 - April 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Pupil on Codeforces with rating 1266.",
+      "Codechef Highest Rating 1512 (2 star) & No. of Contests Participated: 34",
+      "LeetCode contest rating 1518.",
+      "Codeforces highest rank 2247",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Data Structures and Algorithms",
+    company_name: "C++",
+    icon: dsa,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    // date: "Jan 2021 - Feb 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "350+ DSA question solved on Leetcode",
+      "500+ DSA/CP question solved on different coding platforms",
+      
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    company_name: "ReactJS",
+    icon: react,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+   // date: "Jan 2022 - Jan 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed some web applications using React.js and other related technologies.",
+      "I utilize React Router to create smooth navigation experiences within single-page applications.",
+      "Implemented responsive design ensuring cross-browser compatibility.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "MERN",
+    icon: mern,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+   // date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Currently working on MERN stack project (e-commerce website)",
+      "Worked on Spotify Clone project , used NodeJS and ExpressJS (backend development)",
     ],
   },
 ];
@@ -172,35 +164,35 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Reactjs and Redux",
+    name: " ~ Sololearn",
+    // designation: "Sololearn",
+    // company: "Acme Co",
+    image: "https://cdn3d.iconscout.com/3d/free/thumb/free-react-5645899-4695757.png",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Software Engineering Virtual Experience",
+    name: " ~ JP Morgan Chase & Co.",
+    // designation: "COO",
+    // company: "DEF Corp",
+    image: "https://cdn2.downdetector.com/static/uploads/logo/JP_Morgan_logo.png",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+      "Software Engineering Virtual Experience",
+    name: " ~ Goldman Sachs",
+    // designation: "CTO",
+    // company: "456 Enterprises",
+    image: "https://pbs.twimg.com/profile_images/1441140440791617537/JICPNdbf_400x400.png",
+  }
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "FurrEver",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Online pet store, powered by React.js, providing a user-friendly, interactive, and seamless shopping experience for pet owners . Explore our extensive collection of high-quality pet products, including food, treats, toys, grooming supplies, bedding, and accessories",
     tags: [
       {
         name: "react",
@@ -219,9 +211,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "PickColor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The PickColor Chrome Extension is a powerful and innovative tool designed to empower web developers and graphic designers with seamless color-related tasks. This versatile extension revolutionizes the color selection process, enhancing efficiency and creativity in web development and design projects.",
     tags: [
       {
         name: "react",
@@ -240,9 +232,9 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "CustomTees",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "It is an innovative and interactive platform that blends cutting-edge 3D visualization technology with personalized fashion. This unique project empowers users to design and customize their own 3D T-shirts, adding different colors, patterns, and prints to create personalized, one-of-a-kind garments.",
     tags: [
       {
         name: "nextjs",
