@@ -38,6 +38,11 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "resume",
+    title: "Resume",
+  },
+
 ];
 
 const services = [
@@ -195,20 +200,20 @@ const projects = [
       "Online pet store, powered by React.js, providing a user-friendly, interactive, and seamless shopping experience for pet owners . Explore our extensive collection of high-quality pet products, including food, treats, toys, grooming supplies, bedding, and accessories",
     tags: [
       {
-        name: "react",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      // {
+      //   name: "mongodb",
+      //   color: "green-text-gradient",
+      // },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/tanay018/furrever-pets",
   },
   {
     name: "PickColor",
@@ -216,20 +221,20 @@ const projects = [
       "The PickColor Chrome Extension is a powerful and innovative tool designed to empower web developers and graphic designers with seamless color-related tasks. This versatile extension revolutionizes the color selection process, enhancing efficiency and creativity in web development and design projects.",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "scss",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tripguide,
+    source_code_link: "https://github.com/tanay018/PickColor-chrome-extension",
   },
   {
     name: "CustomTees",
@@ -237,20 +242,20 @@ const projects = [
       "It is an innovative and interactive platform that blends cutting-edge 3D visualization technology with personalized fashion. This unique project empowers users to design and customize their own 3D T-shirts, adding different colors, patterns, and prints to create personalized, one-of-a-kind garments.",
     tags: [
       {
-        name: "nextjs",
+        name: "Three.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Reactjs",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: jobit ,
+    source_code_link: "https://github.com/tanay018/CustomTees",
   },
 ];
 

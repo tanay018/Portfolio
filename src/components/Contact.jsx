@@ -20,8 +20,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -30,13 +29,14 @@ const Contact = () => {
   };
 
   const handleSubmit = (e) => {
+    console.log(form);
     e.preventDefault();
     setLoading(true);
 
     emailjs
       .send(
-        process.env.VITE_APP_EMAILJS_SERVICE_ID,
-        process.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        'service_6ujnv0h',
+        'template_oz7alm4',
         {
           from_name: form.name,
           to_name: "Tanay Bhuta",
@@ -44,7 +44,7 @@ const Contact = () => {
           to_email: "tanaybhuta07@gmail.com",
           message: form.message,
         },
-        process.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        'uRbdn3r9jVdejBk4z'
       )
       .then(
         () => {
