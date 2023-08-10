@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  car,
+  recruit,
+  spotify,
 } from "../assets";
 
 export const navLinks = [
@@ -117,6 +120,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Web Developer Intern",
+    company_name: "iNeuron.ai",
+    icon: react,
+    iconBg: "#383E56",
+   // date: "Jan 2022 - Jan 2023",
+    points: [
+      "Developed web applications using React.js and other related technologies.",
+      "I utilize React Router to create smooth navigation experiences within single-page applications.",
+      "Implemented responsive design ensuring cross-browser compatibility.",
+    ],
+  },
+  {
     title: "Competitive Programming",
     company_name: "C++",
     icon: c,
@@ -141,18 +156,7 @@ const experiences = [
       
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "ReactJS",
-    icon: react,
-    iconBg: "#383E56",
-   // date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developed some web applications using React.js and other related technologies.",
-      "I utilize React Router to create smooth navigation experiences within single-page applications.",
-      "Implemented responsive design ensuring cross-browser compatibility.",
-    ],
-  },
+ 
   {
     title: "Full stack Developer",
     company_name: "MERN",
@@ -256,6 +260,69 @@ const projects = [
     ],
     image: jobit ,
     source_code_link: "https://github.com/tanay018/CustomTees",
+  },
+  {
+    name: "Spotify Clone",
+    description:
+      "Developed a dynamic and interactive user interface using MERN stack, ensuring a smooth and engaging user experience . Utilized MongoDB to store and manage user profiles, playlists, and music data, ensuring efficient and scalable data management",
+    tags: [
+      {
+        name: "MERN",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "fullstack",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: spotify ,
+    source_code_link: "https://github.com/tanay018/SpotifyClone",
+  },
+  {
+    name: "recruitx",
+    description:
+      "I designed and developed a user-friendly recruitment website for freshers using ReactJS. This project involved creating an intuitive interface for job seekers to browse and apply for opportunities .",
+    tags: [
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Reactjs",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: recruit,
+    source_code_link: "https://github.com/tanay018/recruitx",
+  },
+  {
+    name: "CarGame",
+    description:
+      "I developed a console-based CarGame which is created using C++ Programming Language and Object-Oriented Programming (OOP) concept . This project involved creating dynamic car movement, collision detection, and user interaction.",
+    tags: [
+      {
+        name: "C++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OOPs",
+        color: "green-text-gradient",
+      },
+      // {
+      //   name: "css",
+      //   color: "pink-text-gradient",
+      // },
+    ],
+    image: car,
+    source_code_link: "https://github.com/tanay018/CarGame",
   },
 ];
 
