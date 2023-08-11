@@ -58,7 +58,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
-             {(nav.title === "Resume") ? <a href='https://drive.google.com/drive/u/1/folders/1zg_7fBdfxZiilyVwCOZDNbkOaQgWX3Cx' target="__blank">{nav.title}</a> :  
+             {(nav.title === "Resume") ? <a href='https://drive.google.com/file/d/1gnF-mkHMSQF9s0KLFm80PrY8fERk0UvZ/view?usp=drive_link' target="__blank">{nav.title}</a> :  
               <a href={`#${nav.id}`}>{nav.title}</a>}
 
             </li>
