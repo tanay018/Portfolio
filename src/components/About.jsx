@@ -47,9 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in Competitive Programming and
-        Data Structures and Algorithms, and expertise in frameworks like ReactJS, NodeJS,Mongodb and
-        Three.js. I'm a quick learner and possessing a diverse skill set that includes expertise in the Frontend Development, Mathematics, Reasoning, and Problem-solving. Let's work together to bring your ideas to life!
+        Software Engineering enthusiast with a Bachelor's degree in Engineering from D.Y. Patil College of Engineering. Experienced in backend and frontend development. Proven skills in C++, Javascript, Python, ReactJS, Django, and SQL. Played pivotal roles during internships, contributing to system design, RESTful API development, and database optimization. Passionate about problem-solving, with achievements in competitive programming platforms like LeetCode, Codeforces and CodeChef. Eager to leverage skills and experiences to drive innovation and solve real-world challenges in the software industry.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
